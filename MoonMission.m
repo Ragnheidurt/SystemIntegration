@@ -32,7 +32,7 @@ V_txmu = sqrt(G*mu*(2/R_EM-1/a_tx));
 
 deltaV_E = V_txE - V_0;
 
-deltaV_M = (V_EM+V_2)-V_txmu;
+deltaV_M = abs((V_EM-V_2)-V_txmu);
 
 deltaV_tot = deltaV_E+deltaV_M
 
