@@ -72,6 +72,8 @@ deltaV_M = abs((V_EM-V_2)-V_txmu);
 
 deltaV_tot = deltaV_E+deltaV_M
 
+%% OMG
+
 
 
 
