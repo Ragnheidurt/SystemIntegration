@@ -1,7 +1,7 @@
 %% Gunnar Tibert, KTH, 2020-04-20
 
 %% Simulating the powered descent landing on the Moon
-clear,clc,clf
+% clear,clc,clf
 
 %% Initial speed and altitude
 mu_M=4.9048695e12; %% gravitational parameter of the Moon (m^3s^-2)

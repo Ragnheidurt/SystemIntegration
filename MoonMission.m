@@ -76,8 +76,10 @@ delta_v_tot = -delta_v_esc + delta_v1 + delta_v2 - v_cm
 %% Step 2 again
 
 RE = 6371e3;
-ra = 35786e3+RE;
-rp = 167e3+RE;
+% ra = 35786e3+RE;
+% rp = 167e3+RE;
+ra = 35975e3+RE;
+rp = 200e3+RE;
 a = (ra+rp)/2;
 G = 6.674*10^-11;
 M_E = 5.97*10^24;
@@ -93,10 +95,10 @@ Vmoon = sqrt((G*M_E)/R_EM);
 vtxe = sqrt(G*M_E*(2/rp-1/a_tx));
 vtxm = sqrt(G*M_E*(2/R_EM-1/a_tx));
 
-vorbitmoon = sqrt((G*M_M)/r_M);
+vorbitmoon = sqrt((G*M_M)/r_M)
 
-ve = abs(vtxe-vGTO);
-vm = abs(Vmoon-vorbitmoon)-vtxm;
+ve = abs(vtxe-vGTO)
+vm = abs(Vmoon-vtxm)
 vtot = ve+vm
 
 

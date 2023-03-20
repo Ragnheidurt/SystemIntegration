@@ -1,7 +1,7 @@
 %% Gunnar Tibert, KTH, 2020-04-20
 
 %% Moon landing BOTEC
-clear, clc
+% clear, clc
 
 mu_M=4.9048695e12; %% gravitational parameter of the Moon (m^3s^-2)
 R_M=1737e3; %% mean radius of the Moon (m)
