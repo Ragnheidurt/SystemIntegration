@@ -21,13 +21,15 @@ V0=sqrt(mu_M*(2/r2-1/at));
 
 disp('Initial mass at start of powered descent');
 m0=300
+% m0 = 566
 
 options = odeset('RelTol',1e-10,'AbsTol',1e-9);
 
 
 %% time integration of the braking phase
 tbraking=[0 10*60]; %% braking during the first 10 min
-T1=-1200; %% braking thrust (N)
+% T1=-1200; %% braking thrust (N)
+T1 =-635.5;
 gamma1=[0 -4.8]*pi/180; %% start and end flight path angles
 
 tf1=tbraking; %% start and end times
