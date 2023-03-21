@@ -4,7 +4,7 @@ function dy = MoonDescentODE(t,y,T,gamma,tf)
 dy = zeros(5,1);    % a column vector
 
 R_M=1737e3; %% mean radius of the Moon (m)
-Isp=321; %% specific impulse of engine (s)
+Isp=320; %% specific impulse of engine (s)
 g=1.625; %% gravitational acceleration on Moon surface (m/s^2)
 g0=9.81; %% gravitational acceleration on Earth surface (m/s^2)
 

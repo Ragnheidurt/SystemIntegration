@@ -20,7 +20,7 @@ disp('Orbital velocity (km/s) at 20 km of elliptical orbit with 100 km apolune a
 V0=sqrt(mu_M*(2/r2-1/at));
 
 disp('Initial mass at start of powered descent');
-m0=300
+m0=566
 
 options = odeset('RelTol',1e-10,'AbsTol',1e-9);
 

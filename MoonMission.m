@@ -101,5 +101,8 @@ ve = abs(vtxe-vGTO)
 vm = abs(Vmoon-vtxm)
 vtot = ve+vm
 
-
+m_sc = 600;
+I_sp = 320;
+deltav = 1600;
+m_fuel = (m_sc*(1-exp(-deltav/(I_sp*9.81))))*1.02
 

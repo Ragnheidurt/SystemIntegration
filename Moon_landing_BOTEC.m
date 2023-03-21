@@ -16,7 +16,7 @@ r2=R_M+h2; %% radius at perilune
 at=(r1+r2)/2; %% semi major axis of transfer ellipse
 
 disp('Specific impulse of the spacecraft propulsion system (s)');
-Isp_sc=321;
+Isp_sc=320;
 Isp_sc
 
 disp('Orbital velocity (km/s) of 100 km circular orbit');
@@ -35,7 +35,7 @@ disp('Required DV (m/s) with 100% margin');
 DV_Hohmann*2
 
 disp('Spacecraft mass (kg) at start of Hohmann transfer');
-m_sc0=573
+m_sc0=600
 
 disp('Fuel mass (kg) for the Hohmann transfer with 100% DV margin');
 m_fuel_Hohmann=m_sc0*(1-exp(-2*DV_Hohmann/Isp_sc/9.81))
@@ -70,7 +70,7 @@ a_des=DV_tot/t_des;
 a_des
 
 disp('Assumed spacecraft mass (kg) at the start of the powered descent');
-m_sc=566;
+m_sc=300;
 m_sc
 
 disp('Required fuel mass (kg) to brake away all speed with 5% DV margin');
